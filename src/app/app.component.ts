@@ -10,7 +10,7 @@ import { ContactComponent } from './contact/contact.component';
   standalone: true,
   imports: [RouterOutlet, HomeComponent, AboutComponent, ProjectsComponent, ContactComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'portfolio-website';

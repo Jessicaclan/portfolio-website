@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
+  activeSection: string | null = null;
+  displayedTitle = '';
+  private fullTitle = '';
+  private typingInterval: any;
+
+  sections = [
+    { id: 'section1', title: ''}
+  ]
 
 }

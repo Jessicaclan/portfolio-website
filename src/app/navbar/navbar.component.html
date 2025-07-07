@@ -1,7 +1,5 @@
-<div class="container">
-  <nav>
-    <div class="nav-btn"><a routerLink="/"><span>HOME</span></a></div>
-    <div class="nav-btn"><a routerLink="/projects"><span>PROJECTS</span></a></div>
-    <div class="nav-btn" data-target="contact"><span>CONTACT</span></div>
-  </nav> 
-</div>
+<nav>
+    <div class="nav-btn" [routerLink]="['/']"><span>HOME</span></div>
+    <div class="nav-btn" [routerLink]="['/projects']"><span>PROJECTS</span></div>
+    <div class="nav-btn" [routerLink]="['/contact']"><span>CONTACT</span></div>
+</nav> 
